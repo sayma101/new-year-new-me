@@ -10,28 +10,27 @@
 
   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 1%); */
 }
-.banner-title,
-.banner-head {
+.banner-content {
   text-align: center;
   color: #fff;
-
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  
 }
 .banner-title {
-  /* text-align: center;
-  color: #fff;
-  text-align: center; */
   font-size: 32px;
-  padding: 177px 531px 383px 530px;
+ padding-top: 177px;
+  /* padding: 150px 530px 30px ; */
 }
-/* .banner-head{
-    font-size: 72px;
+.banner-head{
+    font-size: 60px;
     font-weight: 500; 
-     line-height: 95px; 
+     /* line-height: 95px;  */
     width: 632px;  
-    padding: 200px 344px;
-    max-height: 190px;
-  } */
+    
+    padding-left: 351px;
+    /* padding: 200px 344px 177px; */
+    margin-top: 5px;
+  }
 
 body {
   font-family: "Inter", sans-serif;
@@ -42,8 +41,7 @@ body {
   text-align: center;
   font-size: 88px;
   font-weight: 700;
-  margin-top: 120px;
-  font-style: normal;
+  /* margin-top: 120px; */
   font-family: Inter;
 }
 .offer-description-name {
@@ -51,26 +49,26 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  margin-top: 48px;
+  /* margin-top: 100px; */
   font-family: Inter;
 }
-.category{
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: normal;
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
 }
-.offer{
-   margin: 0px 400px 0px 400px;
-    align-items: center;
+.offer {
+  margin: 0px 400px 0px 400px;
+  align-items: center;
 }
-.offer-image-type{
-    width: 802px;
-height: 500px;
+.offer-image {
+  width: 802px;
+  height: 500px;
 
-margin: auto;
+  margin: 0 auto;
 
-/* padding: 400px; */
+  /* padding: 400px; */
 }

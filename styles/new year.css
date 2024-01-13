@@ -3,9 +3,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
-  width: 1320px;
-  margin: 50px auto;
+  height: 700px;
+  width: 1600px;
+  margin: 50px auto 120px;
   border-radius: 16px;
 
   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 1%); */
@@ -14,23 +14,22 @@
   text-align: center;
   color: #fff;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  
 }
 .banner-title {
   font-size: 32px;
- padding-top: 177px;
+  padding-top: 177px;
   /* padding: 150px 530px 30px ; */
 }
-.banner-head{
-    font-size: 60px;
-    font-weight: 500; 
-     /* line-height: 95px;  */
-    width: 632px;  
-    
-    padding-left: 351px;
-    /* padding: 200px 344px 177px; */
-    margin-top: 5px;
-  }
+.banner-head {
+  font-size: 80px;
+  font-weight: 500;
+  /* line-height: 95px;  */
+  width: 632px;
+  padding-left: 500px;
+  /* padding: 200px 344px 177px; */
+  margin-top: 5px;
+  font-family: Merriweather;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -67,8 +66,90 @@ body {
 .offer-image {
   width: 802px;
   height: 500px;
-
   margin: 0 auto;
 
   /* padding: 400px; */
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  padding: 0 126px;
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 1320px;
+  margin: 120px auto;
+  border-radius: 16px;
+}
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  width: 70%;
+}
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  width: 70%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+}
+.welcome .welcome-container,
+.welcome-png {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  /* width: 120%; */
+  /* height: 200%; */
+}
+#address {
+  /* background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+  width: 805px;
+  height: 400px;
+  flex-shrink: 0;
+  background-color: rgb(242, 203, 226);
+  text-align: center;
+  padding: 100px 386px;
+  margin: 120px auto;
+  border-radius: 5px;
+}
+.add-info-name {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.red-word {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.red-btn {
+  border-radius: 8px;
+  background: #f00;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 64px;
 }

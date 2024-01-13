@@ -332,6 +332,7 @@ margin: 120px auto;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+width: 375px;
 }
 ul{
   color: #FFF;
@@ -351,6 +352,10 @@ ul > li{
 .image-footer{
   justify-content: center;
   padding-left: 900px ;
+  
+}
+.img-footer{
+  padding: 14px;
 }
 .end{
   display: flex;

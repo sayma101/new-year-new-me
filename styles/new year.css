@@ -234,9 +234,9 @@ position: relative;
 .products{
   width: 1800px;
 height: 400px;
-
 margin: 120px auto;
 width: 60%;
+
 }
 .product-image-row1,.product-image-row2{
   display: flex;
@@ -244,9 +244,9 @@ width: 60%;
   border-radius: 16px;
   margin-bottom: 24px;
 }
-.img{
-  width: 424px;
-height: 450px;
+.imge{
+  width: 500px;
+height: 500px;
 }
 .product-text-title{
   color: #F00;
@@ -260,5 +260,64 @@ margin-bottom: 24px;
 font-size: 48px;
 font-weight: 900;
 margin-bottom: 24px;
+
+}
+.newsletter{
+ 
+  margin: 900px auto;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  width: 1600px;
+height: 616px;
+background-color: rgba(255, 0, 0, 0.05);
+}
+.line{
+  display: flex;
+  padding-left: 400px;
+}
+.news-img{
+  width: 150px;
+height: 150px;
+padding-top: 40px;
+}
+.news-head{
+  color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 900;
+
+}
+.news-text{
+  width: 56%;
+  text-align: center;
+  padding-left:320px ;
+}
+.formm{
+  width: 648px;
+height: 72px;
+border-radius: 50px;
+background: #FFF;
+
+}
+.form-text{
+  color: rgba(7, 2, 17, 0.30);
+text-align: left;
+font-family: Inter;
+font-size: 18px;
+border: 0;
+margin-top: 25px;
+margin-left: 0px;
+}
+.news-btn{
+  border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 72px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
 
 }

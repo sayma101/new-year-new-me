@@ -153,3 +153,55 @@ body {
   gap: 10px;
   margin-top: 64px;
 }
+#bonus-sec{
+  display: flex;
+  gap: 50px;
+  width: 1600px;
+height: 535px;
+background: #FFF;
+margin: 120px auto;
+}
+.bonus-text{
+  width: 70%;
+}
+.bonus-text-title{
+  color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.bonus-text-head{ 
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+
+font-weight: 900;
+
+}
+.text-description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+line-height: 32px; /* 160% */
+}
+.bonus-pic{
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 463px;
+  /* border-radius: 463px; */
+  border: 15px solid #F00;
+  align-items: center;
+  
+}
+.bonus-end-head{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.holiday{
+  width: 1600px;
+height: 635px;
+}
+.holiday-head
